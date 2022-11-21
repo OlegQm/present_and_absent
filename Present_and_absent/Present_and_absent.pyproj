@@ -1,0 +1,180 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>5128023c-4a3c-4c7f-8634-6e43ac8525ba</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Present_and_absent.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Present_and_absent</Name>
+    <RootNamespace>Present_and_absent</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Present_and_absent.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="faces\" />
+    <Folder Include="FingerImages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="faces\Baibikov Sergiy.jpg" />
+    <Content Include="faces\Bernikova Oleksandra.jpg" />
+    <Content Include="faces\Burdykin Oleksandr.jpg" />
+    <Content Include="faces\Butenko Vyacheslav.jpg" />
+    <Content Include="faces\Dobrova Olena.jpg" />
+    <Content Include="faces\Grishaev Semen.jpg" />
+    <Content Include="faces\Kazaev Sergiy.jpg" />
+    <Content Include="faces\Kirku Sofia.jpg" />
+    <Content Include="faces\Krasnyanska Elizaveta.jpg" />
+    <Content Include="faces\Leba Danylo.jpg" />
+    <Content Include="faces\Livandovskiy Vladislav.jpg" />
+    <Content Include="faces\Mandra Vladislava.jpg" />
+    <Content Include="faces\Mazur Arseniy.jpg" />
+    <Content Include="faces\Miroshnichenko Illya.jpg" />
+    <Content Include="faces\Mogoryan Tatyana.jpg" />
+    <Content Include="faces\Pashkin Ivan.jpg" />
+    <Content Include="faces\Polikarpova Yaroslava.jpg" />
+    <Content Include="faces\Pyatigorets Tatyana.jpg" />
+    <Content Include="faces\Rotan Oleksandr.jpg" />
+    <Content Include="faces\Salov Illya.jpg" />
+    <Content Include="faces\Savchenko Oleg.jpg" />
+    <Content Include="faces\Sotsenko Maksym.jpg" />
+    <Content Include="faces\Spiridonova Vladislava.jpg" />
+    <Content Include="faces\teacher1.jpg" />
+    <Content Include="faces\teacher10.jpg" />
+    <Content Include="faces\teacher100.jpg" />
+    <Content Include="faces\teacher101.jpg" />
+    <Content Include="faces\teacher102.jpg" />
+    <Content Include="faces\teacher103.jpg" />
+    <Content Include="faces\teacher104.jpg" />
+    <Content Include="faces\teacher105.jpg" />
+    <Content Include="faces\teacher11.jpg" />
+    <Content Include="faces\teacher12.jpg" />
+    <Content Include="faces\teacher13.jpg" />
+    <Content Include="faces\teacher14.jpg" />
+    <Content Include="faces\teacher15.jpg" />
+    <Content Include="faces\teacher16.jpg" />
+    <Content Include="faces\teacher17.jpg" />
+    <Content Include="faces\teacher18.jpg" />
+    <Content Include="faces\teacher19.jpg" />
+    <Content Include="faces\teacher2.jpg" />
+    <Content Include="faces\teacher20.jpg" />
+    <Content Include="faces\teacher21.jpg" />
+    <Content Include="faces\teacher22.jpg" />
+    <Content Include="faces\teacher23.jpg" />
+    <Content Include="faces\teacher24.jpg" />
+    <Content Include="faces\teacher25.jpg" />
+    <Content Include="faces\teacher26.jpg" />
+    <Content Include="faces\teacher27.jpg" />
+    <Content Include="faces\teacher28.jpg" />
+    <Content Include="faces\teacher29.jpg" />
+    <Content Include="faces\teacher3.jpg" />
+    <Content Include="faces\teacher30.jpg" />
+    <Content Include="faces\teacher31.jpg" />
+    <Content Include="faces\teacher32.jpg" />
+    <Content Include="faces\teacher33.jpg" />
+    <Content Include="faces\teacher34.jpg" />
+    <Content Include="faces\teacher35.jpg" />
+    <Content Include="faces\teacher36.jpg" />
+    <Content Include="faces\teacher37.jpg" />
+    <Content Include="faces\teacher38.jpg" />
+    <Content Include="faces\teacher39.jpg" />
+    <Content Include="faces\teacher4.jpg" />
+    <Content Include="faces\teacher40.jpg" />
+    <Content Include="faces\teacher41.jpg" />
+    <Content Include="faces\teacher42.jpg" />
+    <Content Include="faces\teacher43.jpg" />
+    <Content Include="faces\teacher44.jpg" />
+    <Content Include="faces\teacher45.jpg" />
+    <Content Include="faces\teacher46.jpg" />
+    <Content Include="faces\teacher47.jpg" />
+    <Content Include="faces\teacher48.jpg" />
+    <Content Include="faces\teacher49.jpg" />
+    <Content Include="faces\teacher5.jpg" />
+    <Content Include="faces\teacher50.jpg" />
+    <Content Include="faces\teacher51.jpg" />
+    <Content Include="faces\teacher52.jpg" />
+    <Content Include="faces\teacher53.jpg" />
+    <Content Include="faces\teacher54.jpg" />
+    <Content Include="faces\teacher55.jpg" />
+    <Content Include="faces\teacher56.jpg" />
+    <Content Include="faces\teacher57.jpg" />
+    <Content Include="faces\teacher58.jpg" />
+    <Content Include="faces\teacher59.jpg" />
+    <Content Include="faces\teacher6.jpg" />
+    <Content Include="faces\teacher60.jpg" />
+    <Content Include="faces\teacher61.jpg" />
+    <Content Include="faces\teacher62.jpg" />
+    <Content Include="faces\teacher63.jpg" />
+    <Content Include="faces\teacher64.jpg" />
+    <Content Include="faces\teacher65.jpg" />
+    <Content Include="faces\teacher66.jpg" />
+    <Content Include="faces\teacher67.jpg" />
+    <Content Include="faces\teacher68.jpg" />
+    <Content Include="faces\teacher69.jpg" />
+    <Content Include="faces\teacher7.jpg" />
+    <Content Include="faces\teacher70.jpg" />
+    <Content Include="faces\teacher71.jpg" />
+    <Content Include="faces\teacher72.jpg" />
+    <Content Include="faces\teacher73.jpg" />
+    <Content Include="faces\teacher74.jpg" />
+    <Content Include="faces\teacher75.jpg" />
+    <Content Include="faces\teacher76.jpg" />
+    <Content Include="faces\teacher77.jpg" />
+    <Content Include="faces\teacher78.jpg" />
+    <Content Include="faces\teacher79.jpg" />
+    <Content Include="faces\teacher8.jpg" />
+    <Content Include="faces\teacher80.jpg" />
+    <Content Include="faces\teacher81.jpg" />
+    <Content Include="faces\teacher82.jpg" />
+    <Content Include="faces\teacher83.jpg" />
+    <Content Include="faces\teacher84.jpg" />
+    <Content Include="faces\teacher85.jpg" />
+    <Content Include="faces\teacher86.jpg" />
+    <Content Include="faces\teacher87.jpg" />
+    <Content Include="faces\teacher88.jpg" />
+    <Content Include="faces\teacher89.jpg" />
+    <Content Include="faces\teacher9.jpg" />
+    <Content Include="faces\teacher90.jpg" />
+    <Content Include="faces\teacher91.jpg" />
+    <Content Include="faces\teacher92.jpg" />
+    <Content Include="faces\teacher93.jpg" />
+    <Content Include="faces\teacher94.jpg" />
+    <Content Include="faces\teacher95.jpg" />
+    <Content Include="faces\teacher96.jpg" />
+    <Content Include="faces\teacher97.jpg" />
+    <Content Include="faces\teacher98.jpg" />
+    <Content Include="faces\teacher99.jpg" />
+    <Content Include="faces\Varushik Bogdan %28navchaetsya distantsiyno%29.jpg" />
+    <Content Include="faces\Zlydar Valeria.jpg" />
+    <Content Include="faces\Zubenko Anastasia.jpg" />
+    <Content Include="FingerImages\1.jpg" />
+    <Content Include="FingerImages\2.jpg" />
+    <Content Include="FingerImages\3.jpg" />
+    <Content Include="FingerImages\4.jpg" />
+    <Content Include="FingerImages\5.jpg" />
+    <Content Include="FingerImages\6.jpg" />
+    <Content Include="NameList.csv" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
